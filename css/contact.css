@@ -1,0 +1,43 @@
+
+html {
+    --black: #000;
+    --white: #fff;
+    --darkgray: #191C24;
+    --red: #eb1616;
+    --gray: #5B6B8D;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--darkgray);
+    border: 1px solid var(--gray);
+    color: var(--gray);
+}
+
+.contact .form .message {
+    width: 755px;   
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    margin-top: 10px;
+    width: 755px;
+}
+
+.form {
+    border: 1px solid var(--brown);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: center;
+    padding: 10px;
+}
